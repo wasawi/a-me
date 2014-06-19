@@ -1,0 +1,145 @@
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGR</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGG</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGB</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>FBO quality</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Z quality</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Threshold</Name>
+    <Value>0.0502092</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Density</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Clip depth</Name>
+    <Value>0.615063</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Elevation clip angle</Name>
+    <Value>0.230126</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Azimuth clip angle</Name>
+    <Value>-1</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>linearFilter</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>RM</Name>
+    <Value>0.5</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>GM</Name>
+    <Value>0.5</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BM</Name>
+    <Value>0.5</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>AM</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>RV</Name>
+    <Value>0.18</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>GV</Name>
+    <Value>0.14</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BV</Name>
+    <Value>0.1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>AV</Name>
+    <Value>0.84</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>R</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>G</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>B</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>A</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>tilt</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>pan</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>roll</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>angle</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>scale</Name>
+    <Value>3.51464</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Minimum Distance 2 Interact</Name>
+    <Value>80.8368</Value>
+</Widget>

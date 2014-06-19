@@ -1,0 +1,69 @@
+***************************************
+//VRPN
+
+	myData.setPosition( ofVec3f( t.pos[0], t.pos[1], t.pos[2]));
+	ofQuaternion quat;
+	quat.set( t.quat[0], t.quat[1], t.quat[2], t.quat[3]);
+	myData.setOrientation( quat);	
+
+//RAW DATA: myData
+
+LOG
+
+	temp.setPosition(data.getPosition());
+	temp.setOrientation(data.getOrientationQuat());
+	temp.wiiButtonA = data.wiiButtonA;
+	temp.wiiButtonB = data.wiiButtonB;
+	temp.filename = data.filename;
+	temp.playsoundelapsedtime = data.playsoundelapsedtime;	
+
+	logSaver.addDataToLog(temp);
+
+
+***************************************
+DATA TRACKER
+
+
+void dataTracker::initParent() {
+	parent.resetTransform();
+
+	parent.setPosition(position);
+	ofQuaternion quat = ofQuaternion(angle(180), tilt(180), pan(180), roll(180)); 
+	parent.setOrientation(quat);
+	parent.setScale(scale*1000);
+
+	setParent(parent);
+}
+
+
+dataTracker::dataTracker() {
+
+	position= 	(.33,0,0)
+	angle	= 	180	
+	scale	= 	4.0167						
+	target.setParent(*this);
+	target.setPosition(.33,0,0);			
+	initParent();
+}
+
+
+
+
+***************************************
+APP UPDATE
+
+	//TRACKER DATA
+
+	target = myData.target;									//Get tracker target
+	positionTracker = ofVec3f(target.getGlobalPosition());	//Get target position
+
+
+			//BRAIN MEMORIES
+			brainMeshNode memory;
+			memory.setIdStringNode(last_idMemoryIdString);
+			memory.addNodePosition(positionTracker);
+			//The path will be filled after the hole interaction
+
+			brainMemories.push_back(memory);
+
+***************************************

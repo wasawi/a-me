@@ -1,0 +1,55 @@
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGR</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGG</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGB</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>FBO quality</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Z quality</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Threshold</Name>
+    <Value>0.0543933</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Density</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Clip depth</Name>
+    <Value>0.0878661</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Elevation clip angle</Name>
+    <Value>0.230126</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Azimuth clip angle</Name>
+    <Value>-1</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>linearFilter</Name>
+    <Value>0</Value>
+</Widget>

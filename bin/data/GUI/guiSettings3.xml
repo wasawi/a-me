@@ -1,0 +1,50 @@
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGR</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGG</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BGB</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>2nd WINDOWS POSITION</Name>
+    <Value>1920</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>set SECOND SCREEN POS</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>tilt</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>pan</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>roll</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>angle</Name>
+    <Value>180</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>scale</Name>
+    <Value>4.01674</Value>
+</Widget>

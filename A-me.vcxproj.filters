@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxVolumetrics\ofxTexture3d.cpp">
+      <Filter>src\SRC addons\ofxVolumetrics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxVolumetrics\ofxVolumetrics.cpp">
+      <Filter>src\SRC addons\ofxVolumetrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>src\OF addons\ofXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>src\OF addons\ofXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>src\OF addons\ofXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>src\OF addons\ofXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vrpn\MyTrackerManager.cpp">
+      <Filter>src\vrpn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\src\ofxOscBundle.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\src\ofxOscMessage.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\src\ofxOscReceiver.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\src\ofxOscSender.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtilsWin.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxEasingFunc\src\ofxEasingFunc.cpp">
+      <Filter>src\SRC addons\ofxEasing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myDataManager\meshTrackerInteraction.cpp">
+      <Filter>src\myDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myDataManager\dataTracker.cpp">
+      <Filter>src\myDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myDataManager\myOSCManager.cpp">
+      <Filter>src\myDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxTimer\src\ofxTimer.cpp">
+      <Filter>src\SRC addons\ofxTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myAmeManager.cpp">
+      <Filter>src\AmeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log\logClosingThreaded.cpp">
+      <Filter>src\log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log\logTracker.cpp">
+      <Filter>src\log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myDataManager\brainMeshNode.cpp">
+      <Filter>src\myDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\statsRecorder.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vrpn">
+      <UniqueIdentifier>{7c2b25ea-c4e3-410c-b8a3-7af2a6742426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\log">
+      <UniqueIdentifier>{06911681-3504-4042-963e-6d29b68d8570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\myDataManager">
+      <UniqueIdentifier>{4c9768c8-765e-4ec1-809c-577b46f590fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OF addons">
+      <UniqueIdentifier>{97f6f553-1363-449a-9ca2-bce69e93866f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OF addons\ofXmlSettings">
+      <UniqueIdentifier>{4df9c3de-9ce4-48a2-8b4d-1ee691d514f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons">
+      <UniqueIdentifier>{891f3a84-c487-4733-82d8-89078e230686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons\ofxTimer">
+      <UniqueIdentifier>{56464a18-1c70-4bc6-ad45-578198721947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons\ofxEasing">
+      <UniqueIdentifier>{d09e9aa2-010b-45ef-987d-5baa8e423f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons\ofxUI">
+      <UniqueIdentifier>{73c1f56d-527a-47d4-963f-991b2c70d240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons\ofxVolumetrics">
+      <UniqueIdentifier>{442ad63f-d44b-4d61-967b-43be9df92f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons\ofxVolumetrics\shaders">
+      <UniqueIdentifier>{46a72bb3-2cfb-4b6b-9cc3-d5e5cc837636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SRC addons\ofxOSC">
+      <UniqueIdentifier>{51c02d54-632e-4d5b-a34c-88d57bd785d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AmeManager">
+      <UniqueIdentifier>{13d561fd-1f37-4e0b-bc20-c580701f173a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{385b3a48-1795-4981-b6a2-a86b4367da37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxVolumetrics\ofxImageSequencePlayer.h">
+      <Filter>src\SRC addons\ofxVolumetrics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxVolumetrics\ofxTexture3d.h">
+      <Filter>src\SRC addons\ofxVolumetrics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxVolumetrics\ofxVolumetrics.h">
+      <Filter>src\SRC addons\ofxVolumetrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>src\OF addons\ofXmlSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>src\OF addons\ofXmlSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUI.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUI2DPad.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIBiLabelSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIButton.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUICanvas.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUICircleSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUICustomImageButton.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIDropDownList.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIEventArgs.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIFPS.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIFPSSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIImage.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIImageButton.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIImageSampler.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIImageSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIImageToggle.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUILabel.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUILabelButton.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUILabelToggle.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIMinimalSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIMovingGraph.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIMultiImageButton.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIMultiImageSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIMultiImageToggle.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUINumberDialer.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIRadio.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIRangeSlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIRectangle.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIRotarySlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIScrollableCanvas.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUISlider.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUISpacer.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUISpectrum.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUITextInput.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIToggle.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIToggleMatrix.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIWaveform.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIWidget.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxUI\ofxUIWidgetWithLabel.h">
+      <Filter>src\SRC addons\ofxUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\vrpn_Types.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\vrpn_BaseClass.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\vrpn_Configure.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\vrpn_Connection.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\vrpn_Tracker.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\vrpn_Shared.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vrpn\MyTrackerManager.h">
+      <Filter>src\vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\src\ofxOsc.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\src\ofxOscArg.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\src\ofxOscBundle.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\src\ofxOscMessage.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\src\ofxOscReceiver.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\src\ofxOscSender.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscException.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+      <Filter>src\SRC addons\ofxOSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log\logTracker.h">
+      <Filter>src\log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxEasingFunc\src\ofxEasingFunc.h">
+      <Filter>src\SRC addons\ofxEasing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myDataManager\meshTrackerInteraction.h">
+      <Filter>src\myDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myDataManager\dataTracker.h">
+      <Filter>src\myDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myDataManager\myOSCManager.h">
+      <Filter>src\myDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxTimer\src\ofxTimer.h">
+      <Filter>src\SRC addons\ofxTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myAmeManager.h">
+      <Filter>src\AmeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log\logClosingThreaded.h">
+      <Filter>src\log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myDataManager\brainMeshNode.h">
+      <Filter>src\myDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\statsRecorder.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\ofxVolumetrics.vert">
+      <Filter>src\SRC addons\ofxVolumetrics\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="bin\data\shaders\ofxVolumetrics.frag">
+      <Filter>src\SRC addons\ofxVolumetrics\shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+<Widget>
+    <Kind>2</Kind>
+    <Name>Experiment mode</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Auto log</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Log Threshold</Name>
+    <Value>0.0628552</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Low Pass</Name>
+    <Value>-0.983264</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Minimum Interaction Distance</Name>
+    <Value>100.251</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Number of memories</Name>
+    <Value>100</Value>
+</Widget>
